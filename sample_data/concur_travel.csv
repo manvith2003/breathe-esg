@@ -1,0 +1,36 @@
+report_id,expense_type,transaction_date,vendor_name,amount_usd,currency,origin_airport,destination_airport,seat_class,hotel_city,check_in_date,check_out_date,nights,distance_km,traveler_name,cost_center
+RPT-2024-001,Air,2024-01-15,British Airways,485.00,GBP,LHR,JFK,economy,,,,,,,Sarah Chen,CC_EXEC
+RPT-2024-001,Hotel,2024-01-15,Marriott Times Square,320.00,USD,,,,New York,2024-01-15,2024-01-18,3,,Sarah Chen,CC_EXEC
+RPT-2024-001,Taxi,2024-01-18,NYC Yellow Cab,45.00,USD,,,,,,,,18,Sarah Chen,CC_EXEC
+RPT-2024-002,Air,2024-01-22,EasyJet,180.00,GBP,LGW,CDG,economy,,,,,,James Wright,CC_SALES
+RPT-2024-002,Hotel,2024-01-22,Novotel Paris,195.00,EUR,,,,Paris,2024-01-22,2024-01-24,2,,James Wright,CC_SALES
+RPT-2024-002,Taxi,2024-01-24,Uber,28.00,EUR,,,,,,,,12,James Wright,CC_SALES
+RPT-2024-003,Air,2024-02-05,Singapore Airlines,1850.00,GBP,LHR,SIN,business,,,,,,Priya Sharma,CC_EXEC
+RPT-2024-003,Hotel,2024-02-05,Marina Bay Sands,450.00,SGD,,,,Singapore,2024-02-05,2024-02-09,4,,Priya Sharma,CC_EXEC
+RPT-2024-003,Air,2024-02-09,Singapore Airlines,1850.00,GBP,SIN,LHR,business,,,,,,,Priya Sharma,CC_EXEC
+RPT-2024-004,Air,2024-02-12,Lufthansa,320.00,GBP,LHR,FRA,economy,,,,,,Tom Keller,CC_TECH
+RPT-2024-004,Hotel,2024-02-12,Frankfurt Marriott,210.00,EUR,,,,Frankfurt,2024-02-12,2024-02-14,2,,Tom Keller,CC_TECH
+RPT-2024-004,Car Rental,2024-02-12,Hertz,95.00,EUR,,,,,,,,250,Tom Keller,CC_TECH
+RPT-2024-005,Airfare,2024-02-19,British Airways,520.00,GBP,LHR,DXB,economy,,,,,,Michael Lee,CC_SALES
+RPT-2024-005,Hotel,2024-02-19,Sofitel Dubai,380.00,AED,,,,Dubai,2024-02-19,2024-02-22,3,,Michael Lee,CC_SALES
+RPT-2024-005,Taxi,2024-02-22,Careem,35.00,AED,,,,,,,,20,Michael Lee,CC_SALES
+RPT-2024-006,Air,2024-03-01,KLM,265.00,GBP,LHR,AMS,economy,,,,,,Sarah Chen,CC_EXEC
+RPT-2024-006,Hotel,2024-03-01,Hilton Amsterdam,280.00,EUR,,,,Amsterdam,2024-03-01,2024-03-03,2,,Sarah Chen,CC_EXEC
+RPT-2024-007,Flight,2024-03-08,Qantas,2100.00,GBP,LHR,SYD,economy,,,,,,David Park,CC_TECH
+RPT-2024-007,Hotel,2024-03-08,Park Hyatt Sydney,520.00,AUD,,,,Sydney,2024-03-08,2024-03-12,4,,David Park,CC_TECH
+RPT-2024-007,Flight,2024-03-12,Qantas,2100.00,GBP,SYD,LHR,economy,,,,,,,David Park,CC_TECH
+RPT-2024-008,Air,2024-03-15,Iberia,290.00,GBP,LHR,MAD,economy,,,,,,Emma Garcia,CC_SALES
+RPT-2024-008,Hotel,2024-03-15,NH Madrid,180.00,EUR,,,,Madrid,2024-03-15,2024-03-17,2,,Emma Garcia,CC_SALES
+RPT-2024-009,Air,2024-04-02,Air India,980.00,GBP,LHR,BOM,economy,,,,,,Raj Kumar,CC_EXEC
+RPT-2024-009,Hotel,2024-04-02,Taj Mahal Palace Mumbai,310.00,INR,,,,Mumbai,2024-04-02,2024-04-05,3,,Raj Kumar,CC_EXEC
+RPT-2024-009,Taxi,2024-04-05,Ola,15.00,INR,,,,,,,,25,Raj Kumar,CC_EXEC
+RPT-2024-010,Air,2024-04-10,Ryanair,85.00,GBP,STN,BCN,economy,,,,,,James Wright,CC_SALES
+RPT-2024-010,Hotel,2024-04-10,Hotel Arts Barcelona,220.00,EUR,,,,Barcelona,2024-04-10,2024-04-12,2,,James Wright,CC_SALES
+RPT-2024-011,Air,2024-04-18,BA,1200.00,GBP,LHR,NRT,business,,,,,,Priya Sharma,CC_EXEC
+RPT-2024-011,Hotel,2024-04-18,Park Hyatt Tokyo,580.00,JPY,,,,Tokyo,2024-04-18,2024-04-22,4,,Priya Sharma,CC_EXEC
+RPT-2024-012,Air,2024-05-06,Swiss,350.00,GBP,LHR,ZRH,economy,,,,,,Tom Keller,CC_TECH
+RPT-2024-012,Hotel,2024-05-06,Zurich Marriott,390.00,CHF,,,,Zurich,2024-05-06,2024-05-08,2,,Tom Keller,CC_TECH
+RPT-2024-013,Airfare,2024-05-14,Ethiopian,1650.00,GBP,LHR,NBO,economy,,,,,,Sarah Chen,CC_EXEC
+RPT-2024-013,Hotel,2024-05-14,Radisson Blu Nairobi,195.00,USD,,,,Nairobi,2024-05-14,2024-05-17,3,,Sarah Chen,CC_EXEC
+RPT-2024-014,Air,2024-05-20,Rideshare,0.00,GBP,,,,,,,,,Michael Lee,CC_SALES
+RPT-2024-015,Hotel,2024-05-22,London Marriott,180.00,GBP,,,,London,2024-05-22,2024-05-23,1,,Emma Garcia,CC_SALES

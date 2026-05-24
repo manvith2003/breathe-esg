@@ -1,0 +1,156 @@
+[
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000001",
+    "fields": {
+      "ghg_category": "mobile_combustion_diesel",
+      "description": "Diesel fuel combustion (road transport, generators)",
+      "activity_unit": "liters",
+      "kg_co2e_per_unit": "2.680000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 3c: Fuels — Diesel",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000002",
+    "fields": {
+      "ghg_category": "mobile_combustion_petrol",
+      "description": "Petrol/Gasoline fuel combustion",
+      "activity_unit": "liters",
+      "kg_co2e_per_unit": "2.310000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 3c: Fuels — Petrol",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000003",
+    "fields": {
+      "ghg_category": "stationary_combustion_natural_gas",
+      "description": "Natural gas combustion (boilers, heating)",
+      "activity_unit": "kWh",
+      "kg_co2e_per_unit": "0.202900",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 3c: Fuels — Natural gas (kWh gross CV)",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000004",
+    "fields": {
+      "ghg_category": "purchased_electricity_uk",
+      "description": "UK grid electricity (location-based)",
+      "activity_unit": "kWh",
+      "kg_co2e_per_unit": "0.212330",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 1: UK electricity — Scope 2",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000005",
+    "fields": {
+      "ghg_category": "business_travel_flight_short_haul_economy",
+      "description": "Short-haul flight (<3700km), economy class (incl. radiative forcing)",
+      "activity_unit": "km",
+      "kg_co2e_per_unit": "0.255000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 9: Business travel — Air — Short-haul, economy",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000006",
+    "fields": {
+      "ghg_category": "business_travel_flight_long_haul_economy",
+      "description": "Long-haul flight (>3700km), economy class (incl. radiative forcing)",
+      "activity_unit": "km",
+      "kg_co2e_per_unit": "0.195000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 9: Business travel — Air — Long-haul, economy",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000007",
+    "fields": {
+      "ghg_category": "business_travel_hotel_uk",
+      "description": "Hotel stay, UK average (per night)",
+      "activity_unit": "hotel_night",
+      "kg_co2e_per_unit": "31.000000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 9: Business travel — Hotel stay — UK",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000008",
+    "fields": {
+      "ghg_category": "business_travel_ground_taxi",
+      "description": "Ground transport — taxi/rideshare (per km)",
+      "activity_unit": "km",
+      "kg_co2e_per_unit": "0.149000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 9: Business travel — Taxi",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000009",
+    "fields": {
+      "ghg_category": "mobile_combustion_lpg",
+      "description": "LPG/Propane combustion (forklifts, process equipment)",
+      "activity_unit": "liters",
+      "kg_co2e_per_unit": "1.550000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 3c: Fuels — LPG",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000010",
+    "fields": {
+      "ghg_category": "business_travel_flight_short_haul_business",
+      "description": "Short-haul flight (<3700km), business class (incl. radiative forcing)",
+      "activity_unit": "km",
+      "kg_co2e_per_unit": "0.382000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 9: Business travel — Air — Short-haul, business",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "11111111-1111-1111-1111-000000000011",
+    "fields": {
+      "ghg_category": "business_travel_flight_long_haul_business",
+      "description": "Long-haul flight (>3700km), business class (incl. radiative forcing)",
+      "activity_unit": "km",
+      "kg_co2e_per_unit": "0.429000",
+      "source": "DEFRA_2023",
+      "source_ref": "Table 9: Business travel — Air — Long-haul, business",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    }
+  }
+]
