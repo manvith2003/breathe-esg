@@ -14,6 +14,12 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='*').split(',')
 
+# Auto-include Railway and Vercel domains when deployed
+RAILWAY_DOMAIN = os.environ.get('RAILWAY_PUBLIC_DOMAIN', '')
+if RAILWAY_DOMAIN and RAILWAY_DOMAIN not in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.append(RAILWAY_DOMAIN)
+
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
