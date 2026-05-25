@@ -6,8 +6,8 @@ A Django REST + React prototype for ingesting, normalizing, and reviewing ESG em
 
 | | URL |
 |---|---|
-| **Frontend** | https://breatheesg-frontend.vercel.app *(deploy to update)* |
-| **Backend API** | https://breatheesg-api.railway.app |
+| **Frontend** | https://frontend-nu-sepia-53.vercel.app |
+| **Backend API** | https://breathe-esg-production.up.railway.app |
 
 ### Demo credentials
 - Admin: `admin` / `breatheesg2024`
